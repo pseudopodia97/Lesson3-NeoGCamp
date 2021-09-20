@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+:root {
+    --primary-color:#FF636E;
+    --dark-gray: #9CA3AF;
+    --off-white: #FFFBEB;
+}
+hr {
+    margin: 2rem 0
+}
+
+.container {
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: .5rem;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: .5rem;
+    color: var(--primary-color);
+}
+
+
+
+/* List items */
+
+.list-inline{ 
+    display: inline;
+    padding: .5rem .5rem;
+}
+
+
+/* Nav bar */
+.navigation {
+    background-color: var(--primary-color);
+    min-height: 3rem;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+.nav-pills { 
+    text-align: right;
+    justify-items: center;
+}
+.navigation .active {
+    font-weight: bold;
+}
+
+
+/* Hero image */
+
+.hero-img{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+.hero .hero-heading{
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/* section */
+
+.section {
+    padding: 1rem;
+    min-height: 10rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white)
+}
+
+/* chip */
+.chip{
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(216, 216, 216) ;
+    height: 2rem;
+    width: fit-content;
+    border-radius: 2rem;
+    padding: .1rem .1rem .1rem .2rem;
+    
+}
+.chip-img{
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 50%;
+    
+}
+
+/* footer */
+.footer .list-inline { 
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    padding: 2rem;
+}
+
+.foot-icon{
+    height: 2rem;
+    width: 2rem;
+}
