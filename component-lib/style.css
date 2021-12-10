@@ -137,9 +137,16 @@ hr {
 .footer {
     background-color: var(--dark-gray);
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .foot-icon{
     height: 2rem;
     width: 2rem;
+}
+.navitem:hover{
+    text-decoration: underline;
 }
