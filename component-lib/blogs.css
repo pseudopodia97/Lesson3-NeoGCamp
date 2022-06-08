@@ -36,6 +36,9 @@ h1{
 h2{
     font-size: 3rem;
 }
+h3{
+    font-size: 1.5rem;
+}
 
 .image { 
     display: inline-block;
@@ -43,4 +46,9 @@ h2{
     width: 80%;
     height: auto;
     text-align: center;
+}
+
+.quote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-style:wavy;
 }
